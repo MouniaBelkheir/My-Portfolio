@@ -67,14 +67,17 @@
             margin: auto;
             background-image: url("../splash.png");
             background-repeat: no-repeat;
-            background-size: 23rem;
+            background-size: 30rem;
             left: 33%;
+            
 
             img {
                 @media (max-width: $sm ) {
                     width: 23rem;
                 }
-                margin-bottom: -5px;
+                margin-bottom: -40px;
+                // border-bottom-left-radius: 50%;
+                // border-bottom-right-radius: 50%;
             }
         }
 
